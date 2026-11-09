@@ -1,0 +1,68 @@
+import { Product } from '../types';
+
+export const INITIAL_PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: '無線藍牙耳機',
+    price: 2999,
+    category: '音訊設備',
+    description: '高清立體聲音質，具備主動降噪技術與超長 30 小時續航力。',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 2,
+    name: '智慧手錶',
+    price: 8999,
+    category: '穿戴裝置',
+    description: '全天候心率監測、血氧分析、GPS 戶外軌跡與 50 米專業防水。',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 3,
+    name: '便攜式充電器',
+    price: 1299,
+    category: '配件',
+    description: '20000mAh 大容量行動電源，支援 PD 20W 雙向極速快充。',
+    image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 4,
+    name: '無線滑鼠',
+    price: 899,
+    category: '電腦周邊',
+    description: '極致人體工學曲線，微動靜音點擊設計與 4000 DPI 高精準追蹤。',
+    image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 5,
+    name: '機械鍵盤',
+    price: 3999,
+    category: '電腦周邊',
+    description: '全鍵熱插拔機械軸體，自訂 RGB 炫彩燈效與堅固陽極氧化鋁外殼。',
+    image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 6,
+    name: '網路攝影機',
+    price: 2199,
+    category: '電腦周邊',
+    description: 'Full HD 1080P 超高清廣角鏡頭，內建雙全向立體聲降噪收音晶片。',
+    image: 'https://images.unsplash.com/photo-1588508065123-287b28e013da?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 7,
+    name: 'USB隨身碟',
+    price: 599,
+    category: '儲存裝置',
+    description: 'USB 3.2 Gen 1 超高速讀寫傳輸，鋅合金一體成型抗摔防水。',
+    image: 'https://images.unsplash.com/photo-1625842268584-8f3296236761?w=600&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 8,
+    name: '桌面擴音器',
+    price: 1599,
+    category: '音訊設備',
+    description: '震撼低音單體與澎湃立體聲場，木質箱體設計有效抑止諧振。',
+    image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&auto=format&fit=crop&q=80',
+  },
+];
